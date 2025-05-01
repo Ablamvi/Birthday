@@ -1,0 +1,59 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Joyeux Anniversaire Gloria</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <style>#particles-js {position: fixed; width: 100%; height: 100%; z-index: -1;}</style>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <audio id="background-music" autoplay loop>
+        <source src="music.mp3" type="audio/mpeg">
+    </audio>
+    <button id="music-control">Pause</button>
+    <main>
+        <h1>🎉 Joyeux Anniversaire Gloria ! 🎂</h1>
+        <p class="message">
+            En ce jour si spécial, je voulais te rappeler à quel point tu es une personne incroyable. Ton sourire,
+            ta gentillesse et ta lumière rendent le monde meilleur autour de toi. Que cette nouvelle année t’apporte
+            encore plus de bonheur, de succès et de beaux souvenirs. Profite à fond de ta journée, tu le mérites amplement.
+            <br><br>Avec toute mon amitié.
+        </p>
+        <h2>Galerie Photo</h2>
+        <div class="gallery">
+            <img src="photo1.jpg" alt="Photo 1">
+            <img src="photo2.jpg" alt="Photo 2">
+            <img src="photo3.jpg" alt="Photo 3">
+        </div>
+        <h2>Vidéo souvenir</h2>
+        <video controls width="100%">
+            <source src="video.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+    </main>
+    <footer>
+        <p>Fait avec affection par Hugues</p>
+    </footer>
+    <script src="script.js"></script>
+
+    <script>
+    particlesJS("particles-js", {
+      "particles": {
+        "number": { "value": 60 },
+        "color": { "value": "#f1c40f" },
+        "shape": { "type": "circle" },
+        "opacity": { "value": 0.5 },
+        "size": { "value": 4 },
+        "line_linked": { "enable": false },
+        "move": { "enable": true, "speed": 1.5 }
+      }
+    });
+    </script>
+</body>
+</html>
